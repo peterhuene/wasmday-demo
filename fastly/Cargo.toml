@@ -1,0 +1,11 @@
+[package]
+name = "fastly"
+version = "0.1.0"
+edition = "2021"
+
+[package.metadata.component]
+package = "fastly:compute-at-edge"
+target = { path = "wit" }
+
+[dependencies]
+wit-bindgen = { version = "0.4.0", default_features = false }

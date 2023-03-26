@@ -1,0 +1,5 @@
+default world http-adapter {
+    import fastly: fastly.fastly
+    export http: http.types
+    export streams: io.streams
+}

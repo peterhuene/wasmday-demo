@@ -1,0 +1,8 @@
+default world proxy {
+  import random: random.random
+  import console: logging.handler
+  import streams: io.streams
+  import http: http.types
+  import default-outgoing-http: http.outgoing-handler
+  export incoming-http: http.incoming-handler
+}

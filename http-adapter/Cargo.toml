@@ -1,0 +1,15 @@
+[package]
+name = "http-adapter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+once_cell = "1.17.1"
+url = "2.3.1"
+wit-bindgen = { version = "0.4.0", default_features = false }
+
+[lib]
+crate-type = ["cdylib"]
+
+[package.metadata.component.target]
+path = "wit"
