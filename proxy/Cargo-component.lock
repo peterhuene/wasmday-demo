@@ -3,6 +3,14 @@
 version = 1
 
 [[package]]
+id = "demo:app"
+
+[[package.version]]
+requirement = "^0.1.0"
+version = "0.1.0"
+digest = "sha256:1d81c48fe63b0d83ed8968fab7e2206a91097b534b2b6d29adede849f1b8090d"
+
+[[package]]
 id = "wasi:http/proxy"
 
 [[package.version]]

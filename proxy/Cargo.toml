@@ -1,5 +1,5 @@
 [package]
-name = "app"
+name = "proxy"
 version = "0.1.0"
 edition = "2021"
 
@@ -15,3 +15,4 @@ crate-type = ["cdylib"]
 target = "wasi:http/proxy@0.1.0"
 
 [package.metadata.component.dependencies]
+app = "demo:app@0.1.0"
