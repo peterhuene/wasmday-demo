@@ -1,16 +1,7 @@
-/// An example world for the component to target.
 default world command-adapter {
     import http-incoming-handler: http.incoming-handler
     import http: http.types
     import fastly: fastly.fastly
-    use io.streams.{input-stream, output-stream}
-    use filesystem.filesystem.{descriptor}
-
-    export main: func(
-        stdin: input-stream,
-        stdout: output-stream,
-        stderr: output-stream,
-        args: list<string>,
-        preopens: list<tuple<descriptor, string>>,
-    ) -> result
+    
+    export run: func() -> result
 }                

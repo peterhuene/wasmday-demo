@@ -3,17 +3,17 @@
 version = 1
 
 [[package]]
-id = "demo:app"
-
-[[package.version]]
-requirement = "^0.1.0"
-version = "0.1.0"
-digest = "sha256:1d81c48fe63b0d83ed8968fab7e2206a91097b534b2b6d29adede849f1b8090d"
-
-[[package]]
 id = "wasi:http/proxy"
 
 [[package.version]]
 requirement = "^0.1.0"
 version = "0.1.0"
 digest = "sha256:503d5c57adfd45659ec4ca93278c685cce290af16a6cca43877e19eb813ceba5"
+
+[[package]]
+id = "wasmday:svelte-demo"
+
+[[package.version]]
+requirement = "^0.1.0"
+version = "0.1.0"
+digest = "sha256:9e25c54ceb5a915063398da5e8ef8a6785a61690fdcdce13246bcad0e10634b7"
